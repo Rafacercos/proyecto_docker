@@ -30,7 +30,7 @@ El backend utiliza **SQLAlchemy (async)** para gestionar la persistencia de dato
 │   ├── models.py                 # Modelos ORM SQLAlchemy
 │   ├── schemas.py                # Pydantic schemas para validación
 │   ├── database.py               # Configuración de conexión y sesión async
-│   ├── routers/                  # Endpoints organizados por funcionalidades
+│   ├
 │   ├── requirements.txt          # Dependencias del backend
 │   └── Dockerfile                # Dockerfile para backend
 │
@@ -42,6 +42,7 @@ El backend utiliza **SQLAlchemy (async)** para gestionar la persistencia de dato
 ├── docker-compose.yml            # Orquestación de servicios backend y frontend
 └── README.md                     # Este archivo
 
+```
 
 ## Cómo ejecutar
 
