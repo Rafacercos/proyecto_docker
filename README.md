@@ -41,7 +41,7 @@ El backend utiliza **SQLAlchemy (async)** para gestionar la persistencia de dato
 │
 ├── docker-compose.yml            # Orquestación de servicios backend y frontend
 └── README.md                     # Este archivo
-'''
+
 
 ## Cómo ejecutar
 
