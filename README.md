@@ -20,27 +20,28 @@ El backend utiliza **SQLAlchemy (async)** para gestionar la persistencia de dato
 
 ## Organización del repositorio
 
+# Estructura del Proyecto
+
+```bash
 /proyecto_docker
 │
-├── backend/ # Código del backend FastAPI
-│ ├── main.py # Punto de entrada del servidor API
-│ ├── models.py # Modelos ORM SQLAlchemy
-│ ├── schemas.py # Pydantic schemas para validación
-│ ├── database.py # Configuración de conexión y sesión async
-│ ├── routers/ # Endpoints organizados por funcionalidades
-│ ├── requirements.txt # Dependencias del backend
-│ └── Dockerfile # Dockerfile para backend
+├── backend/                       # Código del backend FastAPI
+│   ├── main.py                   # Punto de entrada del servidor API
+│   ├── models.py                 # Modelos ORM SQLAlchemy
+│   ├── schemas.py                # Pydantic schemas para validación
+│   ├── database.py               # Configuración de conexión y sesión async
+│   ├── routers/                  # Endpoints organizados por funcionalidades
+│   ├── requirements.txt          # Dependencias del backend
+│   └── Dockerfile                # Dockerfile para backend
 │
-├── frontend/ # Código del frontend Streamlit
-│ ├── app.py # Script principal de Streamlit
-│ ├── requirements.txt # Dependencias del frontend
-│ └── Dockerfile # Dockerfile para frontend
+├── frontend/                     # Código del frontend Streamlit
+│   ├── app.py                    # Script principal de Streamlit
+│   ├── requirements.txt          # Dependencias del frontend
+│   └── Dockerfile                # Dockerfile para frontend
 │
-├── docker-compose.yml # Orquestación de servicios backend y frontend
-└── README.md # Este archivo
-
-
----
+├── docker-compose.yml            # Orquestación de servicios backend y frontend
+└── README.md                     # Este archivo
+'''
 
 ## Cómo ejecutar
 
