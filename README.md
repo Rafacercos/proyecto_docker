@@ -48,7 +48,7 @@ El backend utiliza **SQLAlchemy (async)** para gestionar la persistencia de dato
 
 1. Clona el repositorio:
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/Rafacercos/proyecto_docker.git
    cd proyecto_docker
 2. Accede a:
 
